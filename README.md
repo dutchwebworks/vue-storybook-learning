@@ -1,4 +1,4 @@
 # Vue Storybook Learning
 
-* By Dennis Burger, May 2020 *
+*By Dennis Burger, May 2020*
 
