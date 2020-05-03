@@ -12,5 +12,5 @@ export const Light = () => ({
 
 export const Dark = () => ({
     components: { TheHeader },
-    template: '<TheHeader mode="header--dark"/>'
+    template: '<TheHeader darkmode />'
 });

@@ -1,9 +1,9 @@
 <template>
-    <header 
-        class="header"
-        :class="{ 'header--dark' : darkmode }">
-        Storybook website
-    </header>
+    <footer 
+        class="footer"
+        :class="{ 'footer--dark' : darkmode }">
+        &copy; Dutchwebworks May 2020
+    </footer>
 </template>
 
 <script>
@@ -22,7 +22,7 @@
 // Block
 // ---------------------------------------------
 
-.header {
+.footer {
     padding: 20px;
     color: #444;
     font-family: sans-serif;
@@ -39,7 +39,7 @@
 // Modifier
 // ---------------------------------------------
 
-.header--dark {
+.footer--dark {
     color: #fff;
     background-color: #444;
 }
