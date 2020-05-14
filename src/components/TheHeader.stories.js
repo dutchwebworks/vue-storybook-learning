@@ -1,4 +1,4 @@
-import TheHeader from "@/components/TheHeader.vue";
+import TheHeader from "./TheHeader.vue";
 
 export default {
     component: TheHeader,
