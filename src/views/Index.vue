@@ -1,6 +1,6 @@
 <template>
   <main>
-    <h1>Homepage</h1>
+    <h1 class="heading">Homepage</h1>
 
     <List :list="listData"/>
   </main>
@@ -33,3 +33,9 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+.heading {
+  color: $color-title;
+}
+</style>

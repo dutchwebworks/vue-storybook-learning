@@ -29,7 +29,7 @@
     }
 </script>
 
-<style>
+<style lang="scss">
 .list {
     margin: 0;
     padding: 0;
@@ -38,12 +38,12 @@
 .list__item {
     cursor: pointer;
     list-style-type: none;
-    color: red;
+    color: map-get($colors, 08);
     font-family: sans-serif;
     font-size: 18px;
 }
 
 .list__item.is-checked {
-    color: green;
+    color: map-get($colors, 07);
 }
 </style>
