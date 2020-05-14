@@ -1,5 +1,5 @@
 import { withKnobs, object } from '@storybook/addon-knobs';
-import List from "@/components/List.vue";
+import List from "./List.vue";
 
 const listData = [
     {
